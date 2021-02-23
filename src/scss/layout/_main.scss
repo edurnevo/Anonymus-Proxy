@@ -1,7 +1,3 @@
-.main-section    {
-    width: 100%;  
-}
-
 .firstSection   {
     width: 100%;
     background-color: #ffffff;
@@ -60,9 +56,10 @@
   
 
 .secondSection  {
+    width: 100%;
     background-color: #eff9ff;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 45px 1fr 45px 1fr;
 }
 
@@ -73,26 +70,22 @@
     font-style: normal;
     line-height: 1.25;
     grid-row: 1 / 2;
-    grid-column: 2 / 3;
     text-align: center;
     margin-top: 30px;
 }
 
 .first-reason   {
     grid-row: 3 / 4;
-    grid-column: 1 / 2;
     text-align: center;
 }
 
 .second-reason  {
     grid-row: 3 / 4;
-    grid-column: 2 / 3;
     text-align: center;
 }
 
 .third-reason   {
     grid-row: 3 / 4;
-    grid-column: 3 / 4;
     text-align: center;
 }
 
@@ -124,7 +117,6 @@
     text-align: center;
     color: #ffffff; 
     grid-row: 5 / 6;
-    grid-column: 2 / 3;
     transition: background-color ease 0.8s;
     &:hover {
         background-color: white;
@@ -170,30 +162,10 @@
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
         }
     }
-    
+
     .reasons    {
         font-size: 26px;
         line-height: 1.73;
-        //grid-row: 2 / 3;
-        //grid-column: 3 / 6;
-        text-align: center;
-    }
-    
-    .first-reason   {
-        //grid-row: 4 / 5;
-        //grid-column: 2 / 3;
-        text-align: center;
-    }
-    
-    .second-reason  {
-        //grid-row: 4 / 5;
-        //grid-column: 4 / 5;
-        text-align: center;
-    }
-    
-    .third-reason   {
-        //grid-row: 4 / 5;
-        //grid-column: 6 / 7;
         text-align: center;
     }
     
@@ -209,8 +181,6 @@
     
     .button {
         width: 210px;
-        //grid-row: 6 / 7;
-        //grid-column: 4 / 5;
     }
 }
 
@@ -246,43 +216,9 @@
         }
     }
 
-    .secondSection  {
-        // display: grid;
-        // grid-template-columns: 81.2px 353.8px 26.2px 51.8px 255px 51.8px 26.2px 353.8px 85px;
-        // grid-template-rows: 60px 45px 45px 112px 60px 45px 60px;
-    }
-    
     .reasons    {
         font-size: 32px;
         line-height: 1.41;
-        //grid-row: 1 / 2;
-        //grid-column: 3 / 8;
         text-align: center;
     }
-    
-    .first-reason   {
-        //grid-row: 4 / 5;
-        //grid-column: 2 / 3;
-        text-align: center;
-    }
-    
-    .second-reason  {
-        //grid-row: 4 / 5;
-        //grid-column: 5 / 6;
-        text-align: center;
-    }
-    
-    .third-reason   {
-        //grid-row: 4 / 5;
-        //grid-column: 8 / 9;
-        text-align: center;
-    }
-     
-    .button {
-        width: 255px;
-        //grid-row: 6 / 7;
-        //grid-column: 5 / 6;
-        align-items: center;
-    }
-
 }
